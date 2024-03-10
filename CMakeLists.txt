@@ -1,7 +1,7 @@
-set(PROJECT_NAME "cpp-project")
-
-project(${PROJECT_NAME} VERSION 0.0.1 DESCRIPTION "" LANGUAGES CXX C)
 cmake_minimum_required(VERSION 3.10)
+
+set(PROJECT_NAME "cpp-project")
+project(${PROJECT_NAME} VERSION 0.0.1 DESCRIPTION "" LANGUAGES CXX C)
 
 set(COMPILER_WARNINGS
     "-Wall"
